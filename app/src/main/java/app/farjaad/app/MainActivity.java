@@ -17,7 +17,7 @@ private static final String[]paths = {
         "Biology 1 (B1)",
         "Biology 2 (B2)",
         "Carl A. Pollock: Hall (CPH)",
-        "Centre for Environmental & Information Technology (EIT)",
+        "EIT",
         "Chemistry 2 (C2)",
         "Columbia Icefield",
         "Conrad Grebel University College",
@@ -58,7 +58,7 @@ private static final String[]paths = {
         "Student Life Centre (SLC)",
         "Student Village 1 (V1)",
         "University Club (UC)",
-        "William M. Tatham Centre for Co-operative Education & Career Services"
+        "William M. Tatham Centre"
 };
 
 @Override
