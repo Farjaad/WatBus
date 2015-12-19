@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MediaRecorderApp"
+    android:orientation="vertical"
+    android:onClick="buttonTapped"
+    android:id="@+id/R">
+
+
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingTop="20dp"
+    android:id="@+id/linearLayout">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="GRT Bus Stop Numbers"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:onClick="buttonTapped" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="Choose a building below to get the nearest bus stop number!
+        Remember to text it to 57555 to find out the next buses coming"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:onClick="buttonTapped"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Bus Stop #"
+        android:layout_marginTop="25dp"/>
+
+
+</LinearLayout>
+
+</LinearLayout>
+
+
