@@ -98,7 +98,7 @@ protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getStop = (Button)findViewById(R.id.getStop);
+        //getStop = (Button)findViewById(R.id.getStop);
         spinner = (Spinner)findViewById(R.id.spinner);
         stopInfo = (TextView)findViewById(R.id.stopInfo);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(MainActivity.this,

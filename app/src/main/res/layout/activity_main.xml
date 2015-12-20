@@ -28,8 +28,8 @@
 
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="100dp"
-        android:text="Choose a building below to get the nearest bus stop number!
+        android:layout_height="120dp"
+        android:text="Choose the building nearest to you below to get the nearest bus stop number and location!
         Remember to text it to 57555 to find out the next buses coming"
         android:gravity="center"
         android:textSize="20dp"
@@ -41,12 +41,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Get Bus Stop #"
-        android:layout_marginTop="25dp"
-        android:id="@+id/getStop"/>
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Get Bus Stop #"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:id="@+id/getStop"/>-->
 
     <TextView
         android:layout_width="fill_parent"
