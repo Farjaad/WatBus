@@ -11,7 +11,7 @@ import android.widget.Spinner;
 public class MainActivity extends Activity implements View.OnClickListener, AdapterView.OnItemSelectedListener {
 
 private Spinner spinner;
-private static final String[]paths = {
+private static final String[]buildings = {
         "Arts Lecture Hall (AL)",
         "B.C. Matthews Hall (BMH)",
         "Biology 1 (B1)",
@@ -68,7 +68,7 @@ protected void onCreate(Bundle savedInstanceState){
 
         spinner = (Spinner)findViewById(R.id.spinner);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(MainActivity.this,
-                android.R.layout.simple_spinner_item, paths);
+                android.R.layout.simple_spinner_item, buildings);
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
