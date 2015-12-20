@@ -45,7 +45,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Get Bus Stop #"
-        android:layout_marginTop="25dp"/>
+        android:layout_marginTop="25dp"
+        android:id="@+id/getStop"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Choose Building Please!"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/stopInfo" />
 
 
 </LinearLayout>
