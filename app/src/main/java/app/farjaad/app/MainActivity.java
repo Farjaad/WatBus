@@ -41,6 +41,7 @@ private static final String[]buildings = {
         "Graduate House (GH)",
         "Hagey Hall of the Humanities (HH)",
         "Health Services (HS)",
+        "Laurier",
         "Lyle Hallman Institute for Health Promotion",
         "Mathematics and Computer (MC)",
         "Mathematics 3",
@@ -63,6 +64,31 @@ private static final String[]buildings = {
         "University Club (UC)",
         "William M. Tatham Centre"
 };
+        private static final String [] stops = {
+                "UW BC Matthews Hall- 1122",
+                "UW BC Matthews Hall- 2519",
+                "University Club- 2518",
+                "UW- Biology - 2530",
+                "UW- Needles Hall- 2517",
+                "UW- Environment 3- 2516",
+                "UW- South Campus Hall 2515",
+                "University-Seagram - 2676",
+                "University-Seagram - 2781",
+                "University-Seagram - 3683",
+                "UW- Engineering 1124",
+                "UW - Davis Centre 1123",
+                "Columbia/ UW 3899",
+                "Columbia- Village 1 1120",
+                "Columbia- Village 1 1096",
+                "Columbia- REV 1097",
+                "Columbia-REV 1119",
+                "Columbia- UW Optometry 1094",
+                "University/Phillip 2675",
+                "University/Philip 3943",
+                "Laurier- 3620",
+                "Laurier- 3619",
+                "Laurier- 1167"
+        };
         private Button getStop;
         private TextView stopInfo;
 
@@ -89,11 +115,12 @@ protected void onCreate(Bundle savedInstanceState){
                                         break;
                                 case 1:
                                         // Whatever you want to happen when the first item gets selected
-                                        stopInfo.setText("Bus Stop Building and Number:\n"
-                                                + "\n " + "UW BC Matthews Hall- 1122\n");
+
                                         break;
                                 case 2:
                                         // Whatever you want to happen when the second item gets selected
+                                        stopInfo.setText("Bus Stop Building and Number:\n"
+                                                + "\n " + stops[0] + "\n" + stops[1]);
                                         break;
                                 case 3:
                                         // Whatever you want to happen when the thrid item gets selected
