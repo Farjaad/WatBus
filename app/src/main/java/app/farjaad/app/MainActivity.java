@@ -115,7 +115,8 @@ protected void onCreate(Bundle savedInstanceState){
                                         break;
                                 case 1:
                                         // Whatever you want to happen when the first item gets selected
-
+                                        stopInfo.setText("Bus Stop Building and Number:\n"
+                                                + "\n " + stops[6]);
                                         break;
                                 case 2:
                                         // Whatever you want to happen when the second item gets selected
