@@ -22,7 +22,7 @@ private static final String[]buildings = {
         "Carl A. Pollock: Hall (CPH)",
         "EIT",
         "Chemistry 2 (C2)",
-        "Columbia Icefield",
+        "Columbia Icefield (CIF)",
         "Conrad Grebel University College",
         "Dana Porter Arts Library (LIB)",
         "Doug Wright Engineering Building",
