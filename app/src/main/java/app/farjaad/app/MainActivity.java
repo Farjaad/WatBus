@@ -150,7 +150,9 @@ protected void onCreate(Bundle savedInstanceState){
                                                 + "\n " + stops[12] + "\n" + stops[23]);
                                         break;
                                 case 9:
-                                    // still need to do
+                                        stopInfo.setText("Bus Stop Building and Number:\n"
+                                                + "\n " + stops[5]);
+                                    // not sure about this one
                                         break;
                                 case 10:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
@@ -216,7 +218,9 @@ protected void onCreate(Bundle savedInstanceState){
                                                 + "\n " + stops[6] + "\n" + stops[10]);
                                         break;
                                 case 26:
-                                      // still need to do
+                                        stopInfo.setText("Bus Stop Building and Number:\n"
+                                                + "\n " + stops[4]);
+                                        // not sure about this one
                                         break;
                                 case 27:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
@@ -279,7 +283,9 @@ protected void onCreate(Bundle savedInstanceState){
                                                 + "\n " + stops[5]);
                                         break;
                                 case 42:
-                                        //still need to do
+                                        stopInfo.setText("Bus Stop Building and Number:\n"
+                                                + "\n " + stops[5]);
+                                        // not sure about this one
                                         break;
                                 case 43:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
