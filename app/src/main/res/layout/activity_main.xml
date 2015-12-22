@@ -18,13 +18,24 @@
     android:id="@+id/linearLayout">
 
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="60dp"
-        android:text="GRT Bus Stop Numbers"
-        android:gravity="center"
-        android:textSize="40dp"
-        android:onClick="buttonTapped" />
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:text="GRT Bus Stop Numbers"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="40dp"-->
+        <!--android:onClick="buttonTapped" />-->
+
+
+
+        <ImageView
+            android:id="@+id/phone_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo1" />
+
+
 
     <TextView
         android:layout_width="fill_parent"
