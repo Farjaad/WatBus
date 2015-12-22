@@ -6,19 +6,20 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MediaRecorderApp"
     android:orientation="vertical"
     android:onClick="buttonTapped"
-    android:id="@+id/R">
+    android:id="@+id/R"
+    android:background="#0055A8">
 
 
-<LinearLayout android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:gravity="center"
-    android:paddingTop="20dp"
-    android:id="@+id/linearLayout">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:id="@+id/linearLayout">
 
 
-    <!--<TextView-->
+        <!--<TextView-->
         <!--android:layout_width="fill_parent"-->
         <!--android:layout_height="60dp"-->
         <!--android:text="GRT Bus Stop Numbers"-->
@@ -37,39 +38,47 @@
 
 
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="120dp"
-        android:text="Choose the building nearest to you below to get the nearest bus stop number and location!
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:text="Choose the building nearest to you below to get the nearest bus stop number and location!
         Remember to text it to 57555 to find out the next buses coming"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:onClick="buttonTapped"/>
+            android:gravity="center"
+            android:textSize="20dp"
+            android:onClick="buttonTapped"
+            android:id="@+id/text"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"/>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#FFFFFF" />
 
-    <!--<Button-->
+        <!--<Button-->
         <!--android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content"-->
         <!--android:text="Get Bus Stop #"-->
         <!--android:layout_marginTop="25dp"-->
         <!--android:id="@+id/getStop"/>-->
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="150dp"
-        android:text="Choose Building Please!"
-        android:gravity="center"
-        android:textSize="15dp"
-        android:paddingTop="40dp"
-        android:id="@+id/stopInfo" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:text="Choose Building Please!"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:paddingTop="40dp"
+            android:id="@+id/stopInfo"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textColor="#FFFFFF"/>
 
 
-</LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>
 
