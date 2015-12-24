@@ -171,7 +171,9 @@ protected void onCreate(Bundle savedInstanceState){
                                                 + "\n " + stops[10]);
                                         break;
                                 case 14:
-                                      // still need to do
+                                        stopInfo.setText("Bus Stop Building and Number:\n"
+                                                + "\n " + stops[11]);
+                                      // not sure about this one
                                         break;
                                 case 15:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
@@ -224,7 +226,7 @@ protected void onCreate(Bundle savedInstanceState){
                                         break;
                                 case 27:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
-                                                + "\n " + stops[20] + "\n" + stops[21] + "\n" + stops[22] );
+                                                + "\n " + stops[22] + "\n" + stops[21] + "\n" + stops[20] );
                                         break;
                                 case 28:
                                         stopInfo.setText("Bus Stop Building and Number:\n"

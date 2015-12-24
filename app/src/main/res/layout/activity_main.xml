@@ -56,7 +56,9 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:background="#FFFFFF" />
+            android:background="@drawable/gradient_spinner"
+            />
+
 
         <!--<Button-->
         <!--android:layout_width="wrap_content"-->
