@@ -1,6 +1,7 @@
 package app.farjaad.app;
 
 import android.app.Activity;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -98,6 +99,7 @@ private static final String[]buildings = {
 protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LOCKED);
 
         //getStop = (Button)findViewById(R.id.getStop);
         spinner = (Spinner)findViewById(R.id.spinner);
