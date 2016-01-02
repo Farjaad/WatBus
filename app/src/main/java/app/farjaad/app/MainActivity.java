@@ -78,11 +78,11 @@ private static final String[]buildings = {
                 "UW- Engineering 1124",//10
                 "UW - Davis Centre 1123",//11
                 "Columbia/ UW 3899",//12
-                "Columbia- Village 1 1120",//13
-                "Columbia- Village 1 1096",//14
-                "Columbia- REV 1097",//15
-                "Columbia-REV 1119",//16
-                "Columbia- UW Optometry 1094",//17
+                "Columbia/Village 1 1120",//13
+                "Columbia/Village 1 1096",//14
+                "Columbia/REV 1097",//15
+                "Columbia/REV 1119",//16
+                "Columbia/UW Optometry 1094",//17
                 "University/Phillip 2675",//18
                 "University/Philip 3943",//19
                 "Laurier- 3620",//20
@@ -117,17 +117,16 @@ protected void onCreate(Bundle savedInstanceState){
                                         stopInfo.setText("Choose Building Please!");
                                         break;
                                 case 1:
-                                        // Whatever you want to happen when the first item gets selected
                                         stopInfo.setText("Bus Stop Building and Number:\n"
                                                 + "\n " + stops[6]);
                                         break;
                                 case 2:
-                                        // Whatever you want to happen when the second item gets selected
+
                                         stopInfo.setText("Bus Stop Building and Number:\n"
                                                 + "\n " + stops[0] + "\n" + stops[1]);
                                         break;
                                 case 3:
-                                        // Whatever you want to happen when the thrid item gets selected
+
                                         stopInfo.setText("Bus Stop Building and Number:\n"
                                                 + "\n " + stops[4]);
                                         break;
@@ -154,7 +153,7 @@ protected void onCreate(Bundle savedInstanceState){
                                 case 9:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
                                                 + "\n " + stops[5]);
-                                    // not sure about this one
+                                    //
                                         break;
                                 case 10:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
@@ -175,7 +174,7 @@ protected void onCreate(Bundle savedInstanceState){
                                 case 14:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
                                                 + "\n " + stops[11]);
-                                      // not sure about this one
+                                      //
                                         break;
                                 case 15:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
@@ -224,7 +223,7 @@ protected void onCreate(Bundle savedInstanceState){
                                 case 26:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
                                                 + "\n " + stops[4]);
-                                        // not sure about this one
+                                        //
                                         break;
                                 case 27:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
@@ -289,7 +288,7 @@ protected void onCreate(Bundle savedInstanceState){
                                 case 42:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
                                                 + "\n " + stops[5]);
-                                        // not sure about this one
+                                        //
                                         break;
                                 case 43:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
@@ -326,23 +325,4 @@ protected void onCreate(Bundle savedInstanceState){
         });
 
         }
-
-//public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
-//
-//        switch (position) {
-//        case 0:
-//        // Whatever you want to happen when the first item gets selected
-//                stopInfo.setText("UW BC Matthews Hall- 1122\n");
-//        break;
-//        case 1:
-//        // Whatever you want to happen when the second item gets selected
-//        break;
-//        case 2:
-//        // Whatever you want to happen when the thrid item gets selected
-//        break;
-//
-//        }
-//        }
-
-
 }
