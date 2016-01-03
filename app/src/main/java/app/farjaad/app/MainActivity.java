@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -93,17 +95,23 @@ private static final String[]buildings = {
         };
         private Button getStop;
         private TextView stopInfo;
+        private TextView userInfo;
+        private ImageView grt;
+        private LinearLayout layout;
 
 
 @Override
-protected void onCreate(Bundle savedInstanceState){
+protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LOCKED);
 
         //getStop = (Button)findViewById(R.id.getStop);
+        layout = (LinearLayout)findViewById(R.id.linearLayout);
         spinner = (Spinner)findViewById(R.id.spinner);
         stopInfo = (TextView)findViewById(R.id.stopInfo);
+        grt = (ImageView)findViewById(R.id.phone_icon);
+        userInfo = (TextView)findViewById(R.id.text);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(MainActivity.this,
                 android.R.layout.simple_spinner_item, buildings);
 
@@ -153,7 +161,7 @@ protected void onCreate(Bundle savedInstanceState){
                                 case 9:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
                                                 + "\n " + stops[5]);
-                                    //
+                                        //
                                         break;
                                 case 10:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
@@ -174,7 +182,7 @@ protected void onCreate(Bundle savedInstanceState){
                                 case 14:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
                                                 + "\n " + stops[11]);
-                                      //
+                                        //
                                         break;
                                 case 15:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
@@ -227,7 +235,7 @@ protected void onCreate(Bundle savedInstanceState){
                                         break;
                                 case 27:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
-                                                + "\n " + stops[22] + "\n" + stops[21] + "\n" + stops[20] );
+                                                + "\n " + stops[22] + "\n" + stops[21] + "\n" + stops[20]);
                                         break;
                                 case 28:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
@@ -312,8 +320,6 @@ protected void onCreate(Bundle savedInstanceState){
                                         break;
 
 
-
-
                         }
                 }
 
@@ -322,6 +328,31 @@ protected void onCreate(Bundle savedInstanceState){
                         // your code here
                 }
 
+
+        });
+
+        grt.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                        // Perform action on click
+                }
+        });
+
+        stopInfo.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                        // Perform action on click
+                }
+        });
+
+        userInfo.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                        // Perform action on click
+                }
+        });
+
+        layout.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                        // Perform action on click
+                }
         });
 
         }
