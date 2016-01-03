@@ -64,7 +64,8 @@ private static final String[]buildings = {
         "Student Life Centre (SLC)",//44
         "Student Village 1 (V1)",//45
         "University Club (UC)",//46
-        "William M. Tatham Centre"//47
+        "UWP",//47
+        "William M. Tatham Centre"//48
 };
         private static final String [] stops = {
                 "UW BC Matthews Hall- 1122",//0
@@ -315,6 +316,10 @@ protected void onCreate(Bundle savedInstanceState) {
                                                 + "\n " + stops[2]);
                                         break;
                                 case 47:
+                                        stopInfo.setText("Bus Stop Building and Number:\n"
+                                                + "\n " + stops[18] + "\n" + stops[19]);
+                                        break;
+                                case 48:
                                         stopInfo.setText("Bus Stop Building and Number:\n"
                                                 + "\n " + stops[6]);
                                         break;
