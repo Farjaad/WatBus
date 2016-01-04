@@ -87,7 +87,7 @@ private static final String[]buildings = {
                 "Columbia/REV 1119",//16
                 "Columbia/UW Optometry 1094",//17
                 "University/Phillip 2675",//18
-                "University/Philip 3943",//19
+                "University 3943",//19
                 "Laurier- 3620",//20
                 "Laurier- 3619",//21
                 "Laurier- 1167",//22
